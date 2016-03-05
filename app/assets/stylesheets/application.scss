@@ -15,9 +15,22 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.alert {
+  margin-bottom: 0px;
+}
+
 body {
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -159,3 +172,54 @@ body {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+
+.registration-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('regbackg.jpeg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.log-in {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: none;
+}
+
+.login-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('loginbg.jpeg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.panel {
+  border-radius: 8px;
+}
+
+.panel-heading {
+  h1 {
+    text-align: center;
+  }
+}
+
+#image-preview {
+  margin: 0px auto;
+}
+
+#post_image {
+  padding: 1em;
+  margin: 0px auto;
+}
+
+
+
+
